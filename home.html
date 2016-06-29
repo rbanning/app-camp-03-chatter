@@ -1,0 +1,18 @@
+<div class="valign-wrapper" style="justify-content: center;">
+    <div class="valign center-align" style="width: 100%;">
+        <div ng-if="!vm.isLoggedIn">
+            <div class="card-panel red">Must be authenticated before using this app!</div>
+            <a href="#/login">Please Login!</a>
+        </div>
+        <div class="row" ng-if="vm.isLoggedIn">
+            <div class="col s12 m4 l2">
+                <!-- identity-card -->
+            </div>
+            <div class="col s12 m8 l8 chatter">
+                <!-- chatter-heading -->
+                <!-- chatter-box -->
+            </div>
+        </div>
+
+    </div>
+</div>
